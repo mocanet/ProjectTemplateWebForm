@@ -48,4 +48,7 @@ if ($project.CodeModel.Language -eq "{B5E9BD33-6D3E-4B5D-925E-8A43B79820B4}")
 
 $msbuild.Xml.AddImport($targetsAjaxMinFile) | out-null
 
+$project.ProjectItems.AddFolder("Db")
+$project.ProjectItems.AddFolder("Models")
+
 $project.Save()
