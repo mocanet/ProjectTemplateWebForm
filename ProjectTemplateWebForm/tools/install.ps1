@@ -50,5 +50,11 @@ $msbuild.Xml.AddImport($targetsAjaxMinFile) | out-null
 
 $project.ProjectItems.AddFolder("Db")
 $project.ProjectItems.AddFolder("Models")
+$project.ProjectItems.AddFolder("Views")
+$views = $project.ProjectItems.Item("Views")
+$views.ProjectItems.AddFolder("Shared")
+$Shared = $views.ProjectItems.Item("Shared")
+$Shared.ProjectItems.AddFolder("Controls")
+$Shared.ProjectItems.AddFolder("Master")
 
 $project.Save()

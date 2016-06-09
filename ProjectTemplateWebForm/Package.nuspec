@@ -19,7 +19,7 @@
       <dependency id="AjaxMin" version="5.14.5506.26202" />
       <dependency id="MiYABiS.WebConfigTransform" version="1.0.2" />
       <dependency id="Moca.NETWebApp" version="2.0.1" />
-      <dependency id="Moca.NETConfiguration" version="1.0.1" />
+      <dependency id="Moca.NETConfiguration" version="1.0.2" />
     </dependencies>
   </metadata>
   <files>
